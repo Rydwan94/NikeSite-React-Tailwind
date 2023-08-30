@@ -51,7 +51,7 @@ const Hero = () => {
           alt="shoe colletion"
           width={510}
           height={402}
-          className="object-contain relative z-10 animate-bounce"
+          className="object-contain relative z-10 animate-wiggle  "
         />
       
 

@@ -37,7 +37,16 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-5deg)' },
+          '50%': { transform: 'rotate(10deg)' },
+        }
+      },
+      animation: {
+        wiggle: "wiggle 1.5s ease-in-out infinite"
+      },
     },
   },
   plugins: [],
